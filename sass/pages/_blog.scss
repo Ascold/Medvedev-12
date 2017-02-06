@@ -1,0 +1,100 @@
+body.blog-page {
+    header {
+        background: url("../../images/blog-background.png") no-repeat top;
+        padding-bottom: 298px;
+    }
+    .section-blog-page {
+        padding: 100px 0;
+        article {
+            &::after {
+                content: "";
+                display: block;
+                border-bottom: 1px solid #e6e9ee;
+                margin: 70px 0 61px;
+            }
+            &:last-child::after {
+                margin-bottom: 44px;
+            }
+        }
+        .blog-articles-wrap {
+            margin-top: 28px;
+        }
+        .article-head {
+            margin-bottom: 22px;
+            .article-author-photo {
+                float: left;
+            }
+            h3 {
+                padding-left: 98px;
+                padding-top: 4px;
+                margin-bottom: 10px;
+            }
+            .article-desc {
+                padding-left: 98px;
+                & > div {
+                    display: inline-block;
+                }
+            }
+        }
+        .article-photo {
+            padding-left: 98px;
+            img {
+                width: 100%;
+            }
+        }
+        .article-content {
+            padding-left: 98px;
+            margin: 40px 0 60px;
+            max-width: 1090px;
+            line-height: 28px;
+        }
+        .article-footer {
+            padding-left: 98px;
+            .share,
+            li {
+                float: left;
+                a {
+                    border-radius: 50px;
+                    display: flex;
+                    width: 51px;
+                    height: 51px;
+                    margin: 0 5px;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    i {
+                        margin: auto;
+                    }
+                }
+            }
+            .share {
+                padding-top: 16px;
+            }
+            ul {
+                float: left;
+                margin-left: 12px;
+            }
+        }
+        .button {
+            float: right;
+        }
+        .page-list {
+            text-align: center;
+            li {
+                display: inline-block;
+                a {
+                    display: flex;
+                    width: 51px;
+                    height: 51px;
+                    border: 2px solid #2a2b2c;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    div {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+    }
+}

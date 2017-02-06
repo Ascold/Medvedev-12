@@ -1,0 +1,100 @@
+footer {
+    padding: 80px 0 90px;
+    .container-wrap {
+        position: relative;
+    }
+    .triangles {
+        margin-top: -181px;
+    }
+    .footer-wrap {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .footer-social {
+        width: 25%;
+        padding: 44px 0 0;
+        .copyright {
+            margin: 14px 0 36px;
+        }
+        ul {
+            li {
+                float: left;
+                margin-right: 9px;
+            }
+            a {
+                display: flex;
+                width: 27px;
+                height: 27px;
+                border: 1px solid #373839;
+                &:hover {
+                    text-decoration: none;
+                }
+                i {
+                    margin: auto;
+                }
+            }
+        }
+    }
+    .footer-nav {
+        width: 25%;
+        padding-left: 106px;
+        ul {
+            margin-top: 16px;
+            max-width: 165px;
+            li {
+                &:last-child a {
+                    border-bottom: none;
+                }
+                a {
+                    display: block;
+                    padding: 12px 0  12px 0;
+                    border-bottom: 1px solid #373839;
+                }
+                .fa-caret-right {
+                    margin-right: 20px;
+                }
+            }
+        }
+    }
+    .footer-form {
+        width: 50%;
+        padding-left: 113px;
+        .footer-title {
+            margin-bottom: 30px;
+        }
+        form {
+            max-width: 458px;
+        }
+        .input {
+            width: 50%;
+            float: left;
+            outline: none;
+            border: 1px solid #373839;
+            resize: none;
+            padding: 16px 0 16px 20px;
+            &:first-child {
+                border-right: none;
+            }
+        }
+        textarea {
+            width: 100%;
+            float: left;
+            clear: left;
+            outline: none;
+            resize: none;
+            border: 1px solid #373839;
+            border-top: none;
+            padding: 12px 0 0 20px;
+        }
+        .button-submit {
+            float: left;
+            clear: left;
+            outline: none;
+            resize: none;
+            margin-top: 10px;
+            display: inline-block;
+            padding: 14px 36px;
+            border: 2px solid #ffaf36;
+        }
+    }
+}

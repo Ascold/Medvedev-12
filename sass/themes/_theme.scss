@@ -1,0 +1,182 @@
+header {
+    .navbar {
+        background-color: transparent;
+        .phone-number {
+            color: #ffffff;
+            &:hover {
+                text-decoration: none;
+                color: #ffaf36;
+            }
+        }
+        ul.nav {
+            a {
+                color: #ffffff;
+                &:hover {
+                    color: #ffaf36;
+                }
+            }
+        }
+    }
+    .header-slider {
+        color: #ffffff;
+        ol {
+            li {
+                a {
+                    background-color: #8f8f8f;
+                    &:hover,
+                    &:active {
+                        background-color: #ffaf36;
+                    }
+                }
+            }
+        }
+    }
+}
+
+h2,
+.h2-desc {
+    color: #1c1c1c;
+}
+
+.section-about-us {
+    .about-us-desc {
+        color: #585858;
+    }
+}
+
+.section-services {
+    h3 {
+        color: #1c1c1c;
+    }
+    .services-desc {
+        color: #585858;
+    }
+}
+
+.section-clients {
+    .slider-clients-inner {
+        color: #585858;
+        .client-name {
+            color: #1c1c1c;
+        }
+    }
+}
+
+.section-news {
+    background-color: #eaeff3;
+    .news-side-bar {
+        color: #565656;
+        .main-new-date > div:first-child {
+            color: #1c1c1c;
+        }
+    }
+    .news-title {
+        color: #1c1c1c;
+    }
+    .news-content {
+        color: #585858;
+    }
+    .news-date {
+        color: #ffaf36;
+    }
+}
+
+footer {
+    background-color: #2a2b2c;
+    .copyright {
+        color: #8e8e8e;
+    }
+    ul {
+        a,
+        a:hover {
+            color: #8a8a8a;
+        }
+    }
+    .footer-title {
+        color: #ffffff;
+    }
+    .footer-nav {
+        a {
+            color: #7b7b7c;
+            &:hover {
+                color: #7b7b7c;
+            }
+        }
+        i {
+            color: #ffaf36;
+        }
+    }
+    form {
+        background: #2a2b2c;
+        .input,
+        textarea {
+            background-color: #2a2b2c;
+        }
+        ::-webkit-input-placeholder {
+            color: #737476;
+        }
+        
+        :-moz-placeholder {
+            color: #737476;
+        }
+        
+        :-ms-input-placeholder {
+            color: #737476;
+        }
+        .button-submit {
+            color: #ffaf36;
+            background-color: #2a2b2c;
+            &:hover {
+                color: #1c1c1c;
+                background-color: #ffaf36;
+                text-decoration: none;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+body.blog-page {
+    .section-blog-page {
+        h3 {
+            color: #1c1c1c;
+        }
+        .article-desc {
+            color: #757575;
+        }
+        .facebook-sharing a {
+            background-color: #496fa5;
+        }
+        .twitter-sharing a {
+            background-color: #00baef;
+        }
+        .google-plus-sharing a {
+            background-color: #eb4125;
+        }
+        .article-footer {
+            li {
+                a {
+                &:hover {
+                    color: #ffffff;
+                }
+                i {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+    .share {
+        color: #585858;
+    }
+    .page-list {
+        a {
+            color: #2a2b2c;
+            &:hover {
+                color: #ffaf36;
+                border: 2px solid #ffaf36;
+            }
+        }
+    }
+}
+    
+}

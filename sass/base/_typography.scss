@@ -1,0 +1,193 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: $font-stack-1;
+}
+
+.h2-desc {
+    font-size: 16px;
+    font-style: italic;
+    font-family: $font-stack-2;
+}
+
+header {
+    .phone-number {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    ul.nav {
+        a {
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    }
+    .header-slider {
+        .slider-intro {
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-family: $font-stack-1;
+        }
+        h1 {
+            font-family: $font-stack-1;
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .slider-desc {
+            font-family: $font-stack-2;
+            font-size: 15px;
+            font-style: italic;
+        }
+    }
+}
+
+.section-about-us {
+    .about-us-desc {
+        font-size: 14px;
+    }
+}
+
+.section-services {
+    h3 {
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: $font-stack-1;
+    }
+    .services-desc {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.section-clients {
+    .client-comment {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .client-name {
+        font-family: $font-stack-1;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    .client-desc {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+.section-news {
+    .news-side-bar {
+        font-size: 14px;
+        font-weight: 400;
+        .main-new-date > div:first-child {
+            font-size: 30px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+    .news-title {
+        font-family: $font-stack-1;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .news-content {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .news-date {
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}
+
+footer {
+    .copyright {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        span {
+            font-family: $font-stack-3;
+            font-weight: 300;
+        }
+    }
+    .footer-title {
+        font-family: $font-stack-1;
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+    }
+    a {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: none;
+        }
+        
+    }
+    form {
+        ::-webkit-input-placeholder {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        :-moz-placeholder {
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        :-ms-input-placeholder {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        
+        .button-submit {
+            font-family: $font-stack-1;
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}
+
+body.blog-page {
+    .section-blog-page {
+        h3 {
+            font-family: $font-stack-1;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .article-desc {
+            font-family: 'Muli', sans-serif;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .share {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+        }
+        .page-list {
+            a {
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.button-header {
+    display: inline-block;
+    a {
+        display: inline-block;
+        color: #1c1c1c;
+        background-color: #ffaf36;
+        font-family: $font-stack-1;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 14px 36px;
+        border: 2px solid transparent;
+        &:hover {
+            background-color: #ffffff;
+            border: 2px solid #ffaf36;
+            color: #ffaf36;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+    }
+}
+
+.button {
+    display: inline-block;
+    a {
+        display: inline-block;
+        color: #ffaf36;
+        font-family: $font-stack-1;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 14px 36px;
+        border: 2px solid #ffaf36;
+        &:hover {
+            color: #1c1c1c;
+            background-color: #ffaf36;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+    }
+}
+
+.slider-buttons-mini {
+    li {
+        float: left;
+        a {
+            display: block;
+            width: 9px;
+            height: 9px;
+            border-radius: 9px;
+            margin-right: 6px;
+            background-color: #36a8ff;
+            &:hover,
+            &:active {
+                background-color: #ffaf36;
+            }
+        }
+    }
+}
